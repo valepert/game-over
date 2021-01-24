@@ -1,0 +1,11 @@
+.DS_Store
+node_modules/
+
+dist/
+coverage/
+
+alphabets/*.ts
+!alphabets/example.ts
+
+# tests/write/game_over.png
+# tests/write/glider.png
