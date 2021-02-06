@@ -19,4 +19,12 @@ map.set("O", O);
 map.set("V", V);
 map.set("R", R);
 
-export const example = createAlphabet(6, map, "000000".repeat(6));
+map.set("g", G);
+map.set("a", A);
+map.set("m", M);
+map.set("e", E);
+map.set("o", O);
+map.set("v", V);
+map.set("r", R);
+
+export const example = createAlphabet(6, map, "0".repeat(6).repeat(6));
